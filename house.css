@@ -1,0 +1,19 @@
+div.thing {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  padding: 10px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #135557;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #C0DAD5;
+}
