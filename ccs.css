@@ -48,3 +48,11 @@ body {
   color: #F2F4EE;
   font-family: Courier;
 }
+
+img.epic {
+  height: auto;
+  width: 100px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}

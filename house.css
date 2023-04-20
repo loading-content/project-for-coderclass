@@ -10,10 +10,16 @@ div.thing {
 
 div {
   padding: 0px;
-  margin: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 5px;
   border-style: solid;
   border-radius: 30px;
   border-color: #C0DAD5;
+}
+
+img.house {
+  height: auto;
+  width: 100%;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
 }
