@@ -23,3 +23,20 @@ img.house {
   display: block;
   margin: auto;
 }
+
+@keyframes bgcolor {
+    0% {filter: hue-rotate(0deg)}
+
+    25% {filter: hue-rotate(90deg)}
+
+    50% {filter: hue-rotate(180deg)}
+
+    75% {filter: hue-rotate(240deg)}
+
+    100% {filter: hue-rotate(360deg)}
+}
+
+img.pinnaple {
+  animation: bgcolor 5s infinite;
+  animation-direction: alternate;
+}
