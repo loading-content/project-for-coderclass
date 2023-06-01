@@ -54,25 +54,29 @@ body {
 
 .thrid {
   margin: 8px;
-  margin-right: 0px;
-  margin-left: 160px;
-  padding: 0px 15px;
+  margin-right: 25px;
+  margin-left: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #3D727A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
     transition: transform .5s;
-    max-width: 15%;
+    max-width: 18%;
     max-height: auto;
     margin: auto;
     background-color: rgb(173, 173, 237);
     border-radius: 10px;
     border: 2px solid black;
+    z-index: 0;
 }
 img:hover {
-    transform:scale(2);
+    transform:scale(1.5);
+    z-index: 1;
 }
 
 @keyframes bgcolor {
