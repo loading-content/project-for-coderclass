@@ -1,0 +1,93 @@
+body {
+  background-color: #083C47;
+  color: #040404;
+  font-family: 'Earth Orbiter', sans-serif;
+  margin: 8px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #8AA6A4;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #040404;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin: 8px;
+  margin-right: 0px;
+  margin-left: 160px;
+  padding: 0px 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3D727A;
+}
+
+.second {
+  margin: 8px;
+  margin-right: 0px;
+  margin-left: 160px;
+  padding: 0px 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3D727A;
+}
+
+.thrid {
+  margin: 8px;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3D727A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+    transition: transform .5s;
+    max-width: 18%;
+    max-height: auto;
+    margin: auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 2px solid black;
+    z-index: 0;
+}
+img:hover {
+    transform:scale(1.5);
+    z-index: 1;
+}
+
+@keyframes bgcolor {
+    0% {filter: hue-rotate(0deg)}
+    25% {filter: hue-rotate(90deg)}
+    50% {filter: hue-rotate(180deg)}
+    75% {filter: hue-rotate(240deg)}
+    100% {filter: hue-rotate(360deg)}
+}
+
+img.pinnaple {
+  animation: bgcolor 5s infinite;
+  animation-direction: alternate;
+}
