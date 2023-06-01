@@ -63,7 +63,7 @@ body {
 }
 
 img {
-    transition: transform 15s;
+    transition: transform .5s;
     max-width: 15%;
     max-height: auto;
     margin: auto;
