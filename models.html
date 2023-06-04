@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="asshats/fuckingbed/styles.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="#">home</a>
+      <a href="#">huis info</a>
+      <a href="#">onze info</a>
+      <a href="#">andere mensen hun huis?</a>
+    </div>
+
+    <div class="main">
+      <h1>info over opdracht</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Euismod elementum nisi quis eleifend quam adipiscing vitae proin. Eu sem integer vitae justo eget magna.
+        Pharetra magna ac placerat vestibulum. Aliquet sagittis id consectetur purus ut.
+        Curabitur vitae nunc sed velit dignissim sodales.
+        Dignissim sodales ut eu sem. Morbi quis commodo odio aenean.
+        Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.
+        Risus quis varius quam quisque. Turpis massa tincidunt dui ut ornare lectus sit.
+        Tellus id interdum velit laoreet id. Sed risus ultricies tristique nulla aliquet.
+        Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Porta nibh venenatis cras sed felis eget.
+        Cursus in hac habitasse platea. Accumsan tortor posuere ac ut. Magna eget est lorem ipsum dolor sit amet.
+        Sollicitudin aliquam ultrices sagittis orci. </p>
+
+    </div>
+    <model-viewer src="https://cdn.glitch.global/e3f8a339-f291-419f-ba15-71f42b766c4d/very_bed1.glb?v=1685890336363" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="2" exposure="0.66" shadow-softness="1" camera-orbit="-157.9deg 73.33deg 33.18m" field-of-view="30deg" auto-rotate>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="asshats/fuckingbed/ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+    <script src="asshats/fuckingbed/script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
